@@ -1,0 +1,26 @@
+# Keil build output
+/MDK-ARM/DM407_DC_H_1/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+
+# Keil local user and debug settings
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+/MDK-ARM/DebugConfig/
+
+# Temporary files
+*.bak
+*.tmp
+*~
+Thumbs.db
+.DS_Store
