@@ -1,5 +1,7 @@
 # Keil build output
-/MDK-ARM/DM407_DC_H_1/
+/experiments/01-dc-motor-pwm/MDK-ARM/DM407_DC_H_1/
+**/MDK-ARM/Objects/
+**/MDK-ARM/Listings/
 *.o
 *.d
 *.crf
@@ -16,7 +18,7 @@
 *.uvguix.*
 *.uvgui.*
 *.uvoptx
-/MDK-ARM/DebugConfig/
+**/MDK-ARM/DebugConfig/
 
 # Temporary files
 *.bak
