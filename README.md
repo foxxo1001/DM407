@@ -8,6 +8,7 @@
 |---|---|---|---|
 | 01 | 直流电机 PWM 调速与正反转控制 | [01-dc-motor-pwm](experiments/01-dc-motor-pwm/) | [实验说明](experiments/01-dc-motor-pwm/README.md) |
 | 02 | 直流有刷电机编码器测速 | [02-dc-motor-encoder-speed](experiments/02-dc-motor-encoder-speed/) | [实验说明](experiments/02-dc-motor-encoder-speed/README.md) |
+| 03 | 直流电机 PID 闭环调速 | [03-dc-motor-pid-speed](experiments/03-dc-motor-pid-speed/) | [实验说明](experiments/03-dc-motor-pid-speed/README.md) |
 
 ## 目录结构
 
@@ -22,12 +23,18 @@ DM407/
     │   ├── Drivers/
     │   ├── MDK-ARM/
     │   └── DM407_DC_H_1.ioc
-    └── 02-dc-motor-encoder-speed/
+    ├── 02-dc-motor-encoder-speed/
+    │   ├── README.md
+    │   ├── Core/
+    │   ├── Drivers/
+    │   ├── MDK-ARM/
+    │   └── DM407_DC_2.ioc
+    └── 03-dc-motor-pid-speed/
         ├── README.md
         ├── Core/
         ├── Drivers/
         ├── MDK-ARM/
-        └── DM407_DC_2.ioc
+        └── DM407_DC_3.ioc
 ```
 
 ## 使用方法

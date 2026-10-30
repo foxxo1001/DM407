@@ -1,5 +1,11 @@
 # Keil build output
 /experiments/01-dc-motor-pwm/MDK-ARM/DM407_DC_H_1/
+/experiments/03-dc-motor-pid-speed/MDK-ARM/DM407_DC_3/
+/experiments/03-dc-motor-pid-speed/MDK-ARM/DM407_DC_2/
+
+# STM32CubeIDE build output
+/experiments/03-dc-motor-pid-speed/Debug/
+/experiments/03-dc-motor-pid-speed/Release/
 **/MDK-ARM/Objects/
 **/MDK-ARM/Listings/
 *.o
