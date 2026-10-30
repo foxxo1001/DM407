@@ -7,6 +7,7 @@
 | 编号 | 实验 | 工程目录 | 说明 |
 |---|---|---|---|
 | 01 | 直流电机 PWM 调速与正反转控制 | [01-dc-motor-pwm](experiments/01-dc-motor-pwm/) | [实验说明](experiments/01-dc-motor-pwm/README.md) |
+| 02 | 直流有刷电机编码器测速 | [02-dc-motor-encoder-speed](experiments/02-dc-motor-encoder-speed/) | [实验说明](experiments/02-dc-motor-encoder-speed/README.md) |
 
 ## 目录结构
 
@@ -15,12 +16,18 @@ DM407/
 ├── README.md
 ├── .gitignore
 └── experiments/
-    └── 01-dc-motor-pwm/
+    ├── 01-dc-motor-pwm/
+    │   ├── README.md
+    │   ├── Core/
+    │   ├── Drivers/
+    │   ├── MDK-ARM/
+    │   └── DM407_DC_H_1.ioc
+    └── 02-dc-motor-encoder-speed/
         ├── README.md
         ├── Core/
         ├── Drivers/
         ├── MDK-ARM/
-        └── DM407_DC_H_1.ioc
+        └── DM407_DC_2.ioc
 ```
 
 ## 使用方法
